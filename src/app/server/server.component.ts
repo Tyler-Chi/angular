@@ -13,7 +13,7 @@ import { Component , Input } from '@angular/core';
 
 export class ServerComponent {
 
-    @Input() server:string;
+    @Input() server;
 
     serverStatus: string = "offline";
     serverId = 10;

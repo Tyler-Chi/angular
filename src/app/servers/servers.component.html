@@ -25,7 +25,9 @@
   <p> No server was created!</p>
 </ng-template>
 
-<app-server *ngFor="let server of servers; let i = index" [server] = "server">
+<app-server *ngFor="let server of servers; 
+  let i = index" 
+  [server] = "server">
 
   {{ i }}
 
